@@ -26,8 +26,8 @@ jobs:
       - name: Build HTML output (if needed)
         run: |
           mkdir -p output
-          cp -r static/* output/  # adjust if needed
-          cp index.html output/   # ensure your homepage is included
+          cp -r static/* output/
+
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
