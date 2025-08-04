@@ -85,7 +85,7 @@ venv\Scripts\activate        # Windows
 pip install -r requirements.txt
 
 # Run the app
-python app.p
+python app.py
 ```
 
 ## ✅ Input Parameters
